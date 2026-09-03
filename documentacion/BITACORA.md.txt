@@ -1,0 +1,69 @@
+# Bitácora del proyecto: Proyecto Jarvis (CAMPUS_GLITCH)
+
+## Información del Equipo y Asignación de Roles (Hito 2)
+Para la evaluación de la preparación del proyecto, el equipo distribuyó las responsabilidades de la siguiente manera:
+- **Vicente Oscar Claros Mamani:** Creación del repositorio, configuración de GitHub, flujos de ramas (Git Flow) y revisión de la documentación.
+- **Carla Valeria Encinas Cano:** Construcción del escenario inicial utilizando `Tilemap` y `Tiles`, asegurando la coherencia visual del entorno.
+- **Victor Grover Asturizaga Plata:** Creación del proyecto en Unity 2D, organización de la estructura de carpetas en `Assets` e importación de los *assets* libres.
+- **Marcelo Josue Escobar Chipana:** Configuración de la escena inicial (`Nivel01.unity`), integración del fondo (Background) con la cámara y redacción del GDD (IDEA_PRINCIPAL.md).
+
+---
+
+## 03/09/2026
+
+### Actividades realizadas
+- Se definió la idea inicial del videojuego (GDD y Concepto Core).
+- Se creó el repositorio público en GitHub con su respectivo `.gitignore` para Unity.
+- Se agregaron a los cuatro integrantes como colaboradores del repositorio.
+- Se implementó un flujo de trabajo Git Flow simplificado, creando las ramas `main` y `develop`.
+- Cada integrante creó ramas `feature/*` (ej. `feature/escenario-inicial`, `feature/organizacion-assets`) para sus respectivas tareas.
+- Se creó el proyecto 2D en Unity 6000.3.16f1.
+- Se estructuraron las carpetas del proyecto (`Assets/Art/Backgrounds`, `Characters`, `Tiles`, `Scenes`).
+- Se construyó la primera escena visual (`Nivel01.unity`) utilizando un fondo estático y una pequeña sección de suelo generada con Tilemaps.
+- Se documentó el proyecto creando los archivos `README.md` e `IDEA_PRINCIPAL.md`.
+- Se realizaron los *commits* individuales y se integraron las ramas `feature/*` hacia `develop` mediante *Merge/Pull Requests*.
+
+### Problemas encontrados
+- **Control de Versiones:** Inicialmente hubo confusión sobre qué archivos de Unity no debían subirse al repositorio, lo que casi genera conflictos con la carpeta `Library`.
+- **Diseño de Escenario:** Al importar los *tiles* libres para el suelo del Nivel 1 (Planta Baja), los *sprites* no se alineaban correctamente con la cuadrícula (Grid) del Tilemap.
+
+### Soluciones aplicadas
+- **Control de Versiones:** Se implementó un archivo `.gitignore` estándar proporcionado por GitHub específicamente configurado para proyectos de Unity, asegurando que directorios locales como `Library` y `Temp` fueran ignorados.
+- **Diseño de Escenario:** Se ajustó la propiedad *Pixels Per Unit* de los *sprites* importados en Unity para que coincidieran con el tamaño de celda del *Grid*, logrando que los bloques encajaran perfectamente.
+
+### Tareas pendientes
+- Iniciar la programación del controlador del Lobo Cyberpunk (movimiento, salto y físicas).
+- Diseñar y animar el *Sprite Sheet* del personaje principal.
+- Extender el diseño del Nivel 1 más allá de la pantalla inicial.
+
+---
+
+## Metodología y Fases del Proyecto de Videojuego
+
+Para gestionar el desarrollo de "CAMPUS_GLITCH", el equipo utilizará una metodología híbrida basada en **Agile (Scrum adaptado)** y las **etapas clásicas de desarrollo de videojuegos**, dividiendo el proyecto en Sprints (hitos) que aseguran entregables funcionales constantes.
+
+### Fase 1: Pre-producción (Hito 2 - Actual)
+* **Objetivo:** Establecer los cimientos del proyecto.
+* **Entregables:** Documento de Diseño de Juego (GDD - IDEA_PRINCIPAL), elección del motor (Unity), control de versiones configurado (GitHub) y creación de una primera escena de prueba visual ("Prueba de Arte"). No hay mecánicas jugables aún.
+
+### Fase 2: Producción - Producto Mínimo Viable / Vertical Slice (Hitos 3 y 4)
+* **Objetivo:** Demostrar el *Core Game Loop* (Bucle de jugabilidad principal). Un *Vertical Slice* es una porción corta del juego donde todas las mecánicas finales están implementadas con la calidad esperada.
+* **Entregables:** 
+  - Nivel 1 (Planta Baja) y Nivel 2 (Piso 1 - Arca) totalmente jugables y decorados.
+  - Controlador FSM del Lobo Cyberpunk finalizado (Idle, Run, Jump, Attack).
+  - Implementación del sistema de daños y vida.
+  - Combate funcional contra el **Boss 1: "El Compilador" (Programación)**, incluyendo el puzzle lógico de su enfrentamiento.
+
+### Fase 3: Producción - Versión Alpha (Hito 5)
+* **Objetivo:** El juego es jugable de principio a fin (*Feature Complete*), aunque falte pulido visual, balanceo y contenga errores menores (bugs temporales).
+* **Entregables:**
+  - Construcción e integración de los Niveles 3 al 8 utilizando Tilemaps modulares.
+  - Desarrollo de los combates contra los Bosses restantes (Ingeniería de Software, Microcontroladores y Redes).
+  - Integración del Menú Principal, Menú de Pausa y HUD de fragmentos.
+
+### Fase 4: Beta y Polish (Cierre de Semestre / Entrega Final)
+* **Objetivo:** El juego entra en estado *Content Complete*. No se añaden mecánicas nuevas; todo el esfuerzo se centra en reparar errores y mejorar la experiencia (*Polish*).
+* **Entregables:** 
+  - *Playtesting* (Pruebas de juego) para ajustar la dificultad de los puzzles y el daño de los enemigos.
+  - Ajuste de *Coyote Time* y *Jump Buffering* para que el salto se sienta perfecto.
+  - Pulido de partículas, animaciones, iluminación 2D e integración final de efectos de sonido (SFX) y música de fondo (BGM).
