@@ -1,0 +1,222 @@
+[
+  {
+    "name": "EXTERIOR / ACCESO PRINCIPAL",
+    "key": "01_Exterior",
+    "objective": "Accede a UNIFRANZ y recupera la primera señal.",
+    "npc": "Guardia U",
+    "dialogue": "¡Bienvenido a UNIFRANZ! Recuperemos la primera señal.",
+    "props": [
+      "ExteriorLightPole",
+      "UniversityGlassEntrance",
+      "UrbanBench",
+      "ExteriorPlanter_Long",
+      "CampusTotem",
+      "SecurityBooth",
+      "Tree_Small",
+      "Tree_Andes",
+      "Tree_Large",
+      "Sign_Entrance",
+      "EntranceStaircase",
+      "StudentTurnstile"
+    ],
+    "boss": null
+  },
+  {
+    "name": "PLANTA BAJA / LOBBY CENTRAL",
+    "key": "02_PlantaBaja",
+    "objective": "Restablece la credencial de acceso a los servicios del campus.",
+    "npc": "Recepcionista",
+    "dialogue": "Habla con el personal, reúne datos y activa la terminal.",
+    "props": [
+      "WaitingChairs_Blue",
+      "MissionBoard_Lobby",
+      "PingPongTable",
+      "AdmissionDesk",
+      "CafeteriaStool",
+      "RoundCafeTable",
+      "HallSofa_Orange",
+      "StagePodium",
+      "AuditoriumSeat_Red",
+      "FireExtinguisherWall",
+      "CoffeeMachine",
+      "EntranceSecurityGate"
+    ],
+    "boss": null
+  },
+  {
+    "name": "MEZANINE / CONEXIONES",
+    "key": "03_Mezanine",
+    "objective": "Reconecta los accesos de ARCA, Cajas y Dirección.",
+    "npc": "Director",
+    "dialogue": "Las conexiones del mezanine necesitan restauración.",
+    "props": [
+      "AdminReception_ARCA",
+      "QueueTicketMachine",
+      "CareerDirectorDoor",
+      "FacultyDirectory",
+      "PostgradoSign",
+      "PaymentCounter_Cajas",
+      "MetalBridge",
+      "InfoScreen",
+      "AdminPC",
+      "MezanineStair",
+      "WaitingSofa",
+      "Printer_Copier"
+    ],
+    "boss": null
+  },
+  {
+    "name": "PISO 1 / SALUD Y LABORATORIOS",
+    "key": "04_Piso1_Salud",
+    "objective": "Recupera los datos experimentales del laboratorio.",
+    "npc": "Docente",
+    "dialogue": "La investigación depende de estos tres fragmentos.",
+    "props": [
+      "NutritionKitchenSink",
+      "MedicalStool",
+      "WhiteHealthFloor",
+      "ExperimentFlask",
+      "LabCurtain_Blue",
+      "Anatomy_Skeleton",
+      "HospitalBed_Blue",
+      "LabTerminal",
+      "LabGlassDoor",
+      "ClinicalSink",
+      "SafetyBiohazard",
+      "NutritionKitchenStove"
+    ],
+    "boss": null
+  },
+  {
+    "name": "PISO 2 / SISTEMAS",
+    "key": "05_Piso2_Sistemas",
+    "objective": "Reactiva los nodos de la red universitaria.",
+    "npc": "Noemi Moller",
+    "dialogue": "La red de Sistemas se ha corrompido. ¡Ayúdanos!",
+    "props": [
+      "SystemsComputerDesk",
+      "ServerRack_Double",
+      "Router_Active",
+      "HackTerminal",
+      "SystemsPC_DualMonitor",
+      "Switch_Network",
+      "TechScreen_Wall",
+      "SystemsSeat",
+      "CodeDataPanel",
+      "StudioSoftbox",
+      "Microcontroller_ESP32",
+      "ComputerTower"
+    ],
+    "boss": null
+  },
+  {
+    "name": "PISO 4 / AULAS",
+    "key": "06_Piso4",
+    "objective": "Resuelve la secuencia del aula y vence al guardián.",
+    "npc": "Director",
+    "dialogue": "Analiza el patrón de ataque antes de responder.",
+    "props": [
+      "PsychologySofa",
+      "ClassroomDoorNumber",
+      "NoticeBoard",
+      "JusticeEmblem",
+      "ProjectorCeiling",
+      "GesellMirror_OneWay",
+      "ClassroomDesk",
+      "LawBookStack",
+      "TutorTerminal",
+      "LawBookcase",
+      "Camera_CCTV",
+      "ClassroomChair"
+    ],
+    "boss": "Boss_Secuencias"
+  },
+  {
+    "name": "PISO 5 / BIBLIOTECA E INNOVA",
+    "key": "07_Piso5_Biblioteca",
+    "objective": "Ordena las ideas y encuentra el acceso a la terraza.",
+    "npc": "Unifranzito",
+    "dialogue": "¡Innova! Aprender también es explorar.",
+    "props": [
+      "StudyLamp",
+      "BookshelfDouble",
+      "BibliotecaBookcase_Tall",
+      "InnovaGlassModule",
+      "BibliotecaStudyTable_Long",
+      "LibraryCheckpoint",
+      "StudySign",
+      "LibraryBookStack",
+      "BibliotecaPCStation",
+      "InnovaLogoSign",
+      "GreenVerticalGarden",
+      "LibraryGlassWindow"
+    ],
+    "boss": null
+  },
+  {
+    "name": "TERRAZA / SOLARIUM",
+    "key": "08_Terraza_Lounge",
+    "objective": "Restaura el enlace exterior y supera la prueba de lógica.",
+    "npc": "Estudiante",
+    "dialogue": "La mejor vista de La Paz espera al final del reto.",
+    "props": [
+      "TerraceGreenFloor",
+      "PalletChair",
+      "TerraceRailGuard",
+      "LoungeSofa_Brown",
+      "TieredGreenSofa",
+      "RoofBlueSteelGirder",
+      "TerraceDoor",
+      "SunGlareLight",
+      "PalletOttoman",
+      "TerraceCityView",
+      "PalletSofa",
+      "BreakTheHypeSign"
+    ],
+    "boss": "Boss_IF_ELSE"
+  },
+  {
+    "name": "CLÍNICA ODONTOLÓGICA / FINAL",
+    "key": "09_Odontologia",
+    "objective": "Recupera el núcleo central y destruye Core Glitch.",
+    "npc": "Noemi Moller",
+    "dialogue": "La última anomalía controla el núcleo del campus.",
+    "props": [
+      "DentistryXRayMachine",
+      "DentistryBlueChair",
+      "ConsultorioSign",
+      "DentalUnit",
+      "DentistryMonitor",
+      "DentalAccessDoor",
+      "DentalStool",
+      "DentistryPatientMonitor",
+      "InstrumentSterilizer",
+      "DentistryXRayScreen",
+      "SurgicalLamp",
+      "LeadApron"
+    ],
+    "boss": "Core_Glitch"
+  },
+  {
+    "name": "EXTRA / SUBSUELO",
+    "key": "EXTRA_Subsuelo",
+    "objective": "Encuentra la señal oculta entre Osteoteca y Anatomía.",
+    "npc": "Docente",
+    "dialogue": "Este laboratorio guarda un secreto digital.",
+    "props": [
+      "AnatomySink",
+      "DentalGiantModel",
+      "AnatomyBrain_Model",
+      "MedicalWasteBin_Red",
+      "BoneDisplayCabinet",
+      "AnfiteatroBleachers",
+      "ClinicalExaminationTable",
+      "BoneCollection",
+      "SecretTerminal",
+      "DissectionTable",
+      "OsteotecaInfoPanel",
+      "SpecimenContainer"
+    ],
+    "boss": null
+  }
+]

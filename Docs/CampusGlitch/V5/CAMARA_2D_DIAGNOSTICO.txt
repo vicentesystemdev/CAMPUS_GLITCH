@@ -1,0 +1,23 @@
+﻿CAMERA 2D CAMPUS GLITCH - UNITY 6000.3.16f1
+Escenas reparadas: 18 de 18
+Pipeline Universal 2D: SI
+
+Pipeline 2D actual: CampusGlitchURP2D / Renderer2D (Renderer2DData)
+SC_Bootstrap | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(0.00, 1.00, -10.00) SpriteRenderers=3 GlobalLight2D=True
+SC_MainMenu | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(0.00, 1.00, -10.00) SpriteRenderers=3 GlobalLight2D=True
+SC_LevelMap | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(0.00, 1.00, -10.00) SpriteRenderers=3 GlobalLight2D=True
+SC_Customization | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(0.00, 1.00, -10.00) SpriteRenderers=3 GlobalLight2D=True
+SC_Settings | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(0.00, 1.00, -10.00) SpriteRenderers=3 GlobalLight2D=True
+SC_Controls | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(0.00, 1.00, -10.00) SpriteRenderers=3 GlobalLight2D=True
+SC_Help | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(0.00, 1.00, -10.00) SpriteRenderers=3 GlobalLight2D=True
+SC_Credits | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(0.00, 1.00, -10.00) SpriteRenderers=3 GlobalLight2D=True
+SC_Level01 | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(8.00, 2.00, -10.00) SpriteRenderers=43 GlobalLight2D=True
+SC_Level02 | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(8.00, 2.00, -10.00) SpriteRenderers=42 GlobalLight2D=True
+SC_Level03 | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(8.00, 2.00, -10.00) SpriteRenderers=42 GlobalLight2D=True
+SC_Level04 | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(8.00, 2.00, -10.00) SpriteRenderers=43 GlobalLight2D=True
+SC_Level05 | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(8.00, 2.00, -10.00) SpriteRenderers=43 GlobalLight2D=True
+SC_Level06 | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(8.00, 2.00, -10.00) SpriteRenderers=43 GlobalLight2D=True
+SC_Level07 | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(8.00, 2.00, -10.00) SpriteRenderers=43 GlobalLight2D=True
+SC_Level08 | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(8.00, 2.00, -10.00) SpriteRenderers=43 GlobalLight2D=True
+SC_Level09 | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(8.00, 2.00, -10.00) SpriteRenderers=43 GlobalLight2D=True
+SC_Extra_Subsuelo | camara=Main Camera (2D ortográfica) ortografica=True cullingMask=-1 position=(8.00, 2.00, -10.00) SpriteRenderers=43 GlobalLight2D=True
