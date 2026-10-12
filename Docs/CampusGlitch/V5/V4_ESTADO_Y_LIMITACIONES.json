@@ -1,0 +1,23 @@
+{
+  "motor": "6000.3.16f1",
+  "plantilla_recomendada": "Universal 2D del Hub, IMPORTAR_EN_UNIVERSAL_2D.bat",
+  "escenas_en_codigo": 11,
+  "frames_lobo_oficial": 17,
+  "frames_lobo_oficial_morado": 17,
+  "frames_lobo_bipedo": 21,
+  "animacion_en_play": "CGFrameAnimator con sprites originales y poses de caminar/correr/saltar/poder",
+  "correcciones": [
+    "El Editor abre SC_Bootstrap si solo existe Untitled intacta",
+    "Renderer2D detectado desde proyecto Universal 2D",
+    "No se sustituye el template URP de Unity Hub al importar",
+    "Colisiones BoxCollider2D desacopladas del sprite",
+    "Control de avatar oficial vs bípedo alternativo",
+    "Se preservan .aseprite originales"
+  ],
+  "pruebas": {
+    "zip": "Pendiente",
+    "importacion_unity": "No disponible aquí",
+    "playmode": "No disponible aquí",
+    "build_windows": "No disponible aquí"
+  }
+}

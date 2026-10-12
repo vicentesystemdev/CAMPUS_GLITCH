@@ -1,0 +1,34 @@
+{
+  "inspeccion": "C# integridad basica/escenas y sprites",
+  "csharp_llaves": [
+    {
+      "archivo": "CGEntities.cs",
+      "llaves_abiertas": 49,
+      "llaves_cerradas": 49
+    },
+    {
+      "archivo": "CGGame.cs",
+      "llaves_abiertas": 116,
+      "llaves_cerradas": 116
+    },
+    {
+      "archivo": "CGData.cs",
+      "llaves_abiertas": 68,
+      "llaves_cerradas": 68
+    },
+    {
+      "archivo": "CGWorld.cs",
+      "llaves_abiertas": 40,
+      "llaves_cerradas": 40
+    },
+    {
+      "archivo": "CGAnimatedProp.cs",
+      "llaves_abiertas": 7,
+      "llaves_cerradas": 7
+    }
+  ],
+  "unity_editor_ejecutado": false,
+  "error_de_compilacion_0_verificado": false,
+  "ejecutable_compilado": false,
+  "escenas": 11
+}

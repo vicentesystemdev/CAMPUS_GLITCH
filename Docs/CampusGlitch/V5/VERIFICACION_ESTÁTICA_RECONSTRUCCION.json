@@ -1,0 +1,12 @@
+{
+  "asset_png_count": 1319,
+  "aseprite_sources_inside_Unity_Assets": 937,
+  "unity_scenes": 11,
+  "sprite_frames_biped": 42,
+  "effect_frames": 68,
+  "native_animator_builder": true,
+  "validated_png_formats": true,
+  "unity_compilation_tested": false,
+  "windows_exe_generated": false,
+  "github_pushed": false
+}

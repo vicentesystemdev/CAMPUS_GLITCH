@@ -1,0 +1,79 @@
+[
+  {
+    "archivo": "SC_Bootstrap.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 3,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  },
+  {
+    "archivo": "SC_Extra_Subsuelo.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 43,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  },
+  {
+    "archivo": "SC_Level01.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 43,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  },
+  {
+    "archivo": "SC_Level02.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 42,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  },
+  {
+    "archivo": "SC_Level03.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 42,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  },
+  {
+    "archivo": "SC_Level04.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 43,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  },
+  {
+    "archivo": "SC_Level05.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 43,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  },
+  {
+    "archivo": "SC_Level06.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 43,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  },
+  {
+    "archivo": "SC_Level07.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 43,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  },
+  {
+    "archivo": "SC_Level08.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 43,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  },
+  {
+    "archivo": "SC_Level09.unity",
+    "camara_ortografica": true,
+    "sprites_en_editor": 43,
+    "vista_previa_2d": true,
+    "audio_listener": true
+  }
+]
